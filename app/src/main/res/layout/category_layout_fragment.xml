@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/category5"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="100dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:onClick="onEnter"
+        android:text="Entertainment"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/category4"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:onClick="onFinan"
+        android:text="Financial"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/category3"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:onClick="onSport"
+        android:text="Sports"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/category2"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:onClick="onTech"
+        android:text="Technology"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/category1"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Gaming"
+        android:onClick="onGame"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+</LinearLayout>

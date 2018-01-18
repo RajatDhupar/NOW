@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.practice.now.startUpActivities.SplashActivity">
+
+    <!--ImageView
+        android:id="@+id/imageView"
+        android:layout_width="330dp"
+        android:layout_height="312dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/news1" /-->
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="371dp"
+        android:layout_height="547dp"
+        android:fontFamily="cursive"
+
+        android:gravity="center"
+        android:text="Now News"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+         />
+
+</android.support.constraint.ConstraintLayout>

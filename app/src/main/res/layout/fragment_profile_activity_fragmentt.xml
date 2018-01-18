@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.practice.now.startUpActivities.ProfileActivityFragmentt">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/category5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:onClick="onEnter"
+        android:text="Entertainment"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/category4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:onClick="onFinan"
+        android:text="Financial"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/category3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:onClick="onSport"
+        android:text="Sports"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/category2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:onClick="onTech"
+        android:text="Technology"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/category1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:onClick="onGame"
+        android:text="Gaming"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
